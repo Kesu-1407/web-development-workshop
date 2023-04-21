@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+:root{
+        --primary-color: #ff7613;
+        --text-color: #727171;
+    }
+
+.carousel_image{
+    height:500px;
+}
+.img_change{
+    border-radius: 50%;
+}
+.name{
+    color: var(--primary-color);
+}
+.text{
+    font-weight: 400;
+    color: var(--text-color);
+}
+.pre{
+    font-weight:300;
+    color: var(--primary-color);
+}

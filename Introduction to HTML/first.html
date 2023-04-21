@@ -3,11 +3,20 @@
 
 <head>
     <title>My First WebPage</title>
+    <style>
+         .mine {
+            color:darkblue;
+            background-color: bisque    ;
+        }
+    </style>
 </head>
 
 <body>
-    <div>
-        <h1>Introduction to the AI technology.</h1>
+    <div >
+        <hr>
+        <div class="mine">
+        <h1>Introduction to the AI technology</h1>
+        </div>
         <hr>
         <div>
             <p>Artificial Intelligence, commonly referred to as AI, is a branch of computer science that deals with the
@@ -35,7 +44,8 @@
         </div>
         <div>
             <h3>Difference Between AI & ML</h3>
-            <table border="1px">
+            <table border="1px" ;
+                bordercolor="#FF0000";>
                 <caption>Difference Between AI & ML</caption>
                 <thead>
 
@@ -82,9 +92,30 @@
         <br/>
         <br/>
         <div>
-            <img src="./dev-image.jpg" width="720px" height="300px">
+            <a href="https://www.google.com"><img src="./dev-image.jpg" width="550 px" height="300px"></a>
         </div>
     </div>
+    <ul>
+        <li>Supervised Learning: Here, the machine is trained on labeled data where both input and output are
+            known. The algorithm learns to make predictions based on the input data and the corresponding
+            labeled output.</li>
+        <li>Unsupervised Learning: Here, the machine is trained on unlabeled data where only the input data is
+            known. The algorithm learns to identify patterns in the data and group them together.</li>
+        <li>Reinforcement Learning: Here, the machine learns through a system of rewards and punishments based
+            on its actions. It tries to maximize the rewards it receives by taking actions that lead to positive
+            outcomes and avoiding those that lead to negative ones.</li>
+    </ul>
+    <div>
+        <h2>Please fill the form below to continue</h2>
+        <Form action="success.html" method="get">
+            <label>First Name:</label>
+            <input type="text" name="first name">
+            <label>Last Name:</label>
+            <input type="text" name="last name">
+            <button>Submit</button>
+        </Form>
+    </div>
+
 </body>
 
 </html>
